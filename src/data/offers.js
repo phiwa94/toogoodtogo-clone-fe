@@ -1,0 +1,53 @@
+// dummy offers for milestone 1, later they come from the backend
+const offers = [
+  {
+    id: "1",
+    title: "Bread and pastry bag",
+    description: "Bread, rolls and sweet pastry from today.",
+    price: 3.99,
+    originalValue: 12.0,
+    quantityAvailable: 4,
+    pickupStart: "2026-11-20T18:00:00",
+    pickupEnd: "2026-11-20T18:30:00",
+    storeName: "Bakery Huber",
+    city: "Wien",
+  },
+  {
+    id: "2",
+    title: "Vegetable box",
+    description: "Fresh vegetables that do not look perfect anymore.",
+    price: 4.5,
+    originalValue: 15.0,
+    quantityAvailable: 2,
+    pickupStart: "2026-11-20T19:00:00",
+    pickupEnd: "2026-11-20T19:45:00",
+    storeName: "Market Corner",
+    city: "Graz",
+  },
+  {
+    id: "3",
+    title: "Sushi surprise",
+    description: "Sushi boxes from the lunch menu.",
+    price: 5.99,
+    originalValue: 18.0,
+    quantityAvailable: 1,
+    pickupStart: "2026-11-20T21:00:00",
+    pickupEnd: "2026-11-20T21:30:00",
+    storeName: "Sushi Kai",
+    city: "Wien",
+  },
+  {
+    id: "4",
+    title: "Cake leftovers",
+    description: "Slices of cake and cupcakes.",
+    price: 3.5,
+    originalValue: 10.5,
+    quantityAvailable: 3,
+    pickupStart: "2026-11-21T17:30:00",
+    pickupEnd: "2026-11-21T18:00:00",
+    storeName: "Cafe Sonne",
+    city: "Linz",
+  },
+];
+
+export default offers;
